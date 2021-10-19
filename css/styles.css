@@ -445,3 +445,34 @@ img {
         grid-row: 3 / 4;
     }
 }
+
+/* ==== footer ==== */
+.footer {
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: var(--white);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 55rem;
+    padding: 5rem;
+}
+@media (min-width: 768px) {
+    .footer-content {
+        justify-content: flex-end;
+    }
+}
+
+.copyright {
+    background-color: var(--black);
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
